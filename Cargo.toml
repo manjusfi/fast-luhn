@@ -5,9 +5,9 @@ authors = ["Matt Stroganov <strmatvey@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-cargo
-compiler_builtins
-std
+cargo.
+compiler_builtins.
+std.
 rand = "0.6"
 
 [dependencies.pyo3]
