@@ -66,8 +66,9 @@ setup(
     ],
     setup_requires=[
         'setuptools',
-        'setuptools_rust',
-        'wheel==0.31.1',
+        'setuptools_rust'
+        # ,
+        # 'wheel==0.31.1',
     ],
     zip_safe=False,
 )
