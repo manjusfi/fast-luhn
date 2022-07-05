@@ -2,7 +2,7 @@ import sys
 
 from setuptools import setup
 
-import fast_luhn as module
+# import fast_luhn as module
 
 
 try:
@@ -25,8 +25,10 @@ def read(fname):
 
 setup(
     name='fast-luhn',
-    version=module.__version__,
-    author=module.__author__,
+    # version=module.__version__,
+    version="0.1.5",
+    # author=module.__author__,
+    author="Matt Stroganov",
     description='Fast Luhn algorithm',
     long_description=read('README.rst'),
     keywords='luhn validation',
